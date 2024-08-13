@@ -6,6 +6,7 @@ module.exports = {
     'Facebook': `<a href="https://www.facebook.com/SimoneAndPeruzzo"><i class="fa-brands fa-facebook fact-icon"></i>Simone Peruzzo</a>`,
     'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>'
   },
+  introduction:'My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills and trying to undestand their needs and interests in order to get the best from all of them. ',
   skills: [
     ['Team Leadership', 70],
     ['Code Architecture', 80],
@@ -22,9 +23,7 @@ module.exports = {
       mode: 'Hybrid',  // or 'Remote', 'Hybrid'
       skills: [],
       contents: `I started my adventure, as a main software develop of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in july 2017.
-      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, and becoming an appreciated Team Leader.
-      My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills: trying to undestand their needs and interests in order to get the best from all of them. 
-  `
+      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, and becoming an appreciated Team Leader.`
     },
     {
       title: 'Ng.srl',
