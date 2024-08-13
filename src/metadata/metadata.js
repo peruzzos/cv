@@ -21,12 +21,10 @@ module.exports = {
       location: 'Mira(VE), Italy',
       mode: 'Hybrid',  // or 'Remote', 'Hybrid'
       skills: [],
-      contents: `Starting from a developer position on [IDStore]{https://www.custom.biz/it_IT/prodotto/software/id-store} product OneStore product, over the years I was able to grow within the team.
-Focusing on a vision to guide change, driving people to get the achivements. 
-Influnce team members in order to improve their skills: trying to undestand their needs and interests in order to get the best from all of them. 
-
-
-`
+      contents: `I started my adventure, as a main software develop of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in july 2017.
+      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, and becoming an appreciated Team Leader.
+      My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills: trying to undestand their needs and interests in order to get the best from all of them. 
+  `
     },
     {
       title: 'Ng.srl',
@@ -35,10 +33,10 @@ Influnce team members in order to improve their skills: trying to undestand thei
       period: 'June 2014 – June 2017',
       skills: ['desktop app design and development', 'web catalog using three,js'],
       contents: `
-Development of desktop applications using C # programming language, synchronization with the NopCommerce e-commerce platform and use of query notification to update the informations managed by
+Development of desktop applications using C# programming language, synchronization with the NopCommerce e-commerce platform and use of query notification to update the informations managed by
 the software in real time.
 
-Use of Telerik UI library for WinForms.
+Development of [Firemaster Show Design](https://youtu.be/6sEFSZxZC78?si=K7MKd6l8pbZeem5T), a professional software for the management of pyromusical shows.
 
 Implementation of mobile applications for:
 \n\n
@@ -47,8 +45,6 @@ Implementation of mobile applications for:
 \t - iOS, using XCode as IDE and Objective c as programming language.
 \t - Xamarin (cross plattform development), using Visual Studio as IDE and C# as programming language.
 
-Web api implementation using asp.net Web API.
-\n
 Use of Three.js library to realize three-dimensional objects for a web catalog.`
     },
     {
