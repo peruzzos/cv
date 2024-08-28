@@ -131,5 +131,12 @@ development.
       title: 'Azure Developer Associate AZ-204',
       contents: `[Microsoft Certified](https://learn.microsoft.com/), Certification number: GBD558-C13482.`
     }
-  ]
+  ],
+  otherexperiences:[
+  {
+      title: 'One Year Experience in Australia on a Working Holiday Visa',
+      location: 'Australia',
+      period: 'april 2013 - february 2014',
+      contents: `During my time as a backpacker in Australia, I not only explored a new world and connected with different cultures but also significantly enhanced my English language skills. This immersive experience greatly improved my ability to communicate effectively in English`
+  }]
 };
