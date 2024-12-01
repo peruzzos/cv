@@ -1,10 +1,11 @@
 module.exports = {
-  name: 'Simone Peruzzo',
-  title: 'Team Leader',
+  name: 'SIMONE PERUZZO',
+  title: 'Enthusiast Team Leader. Inspired by example.',
   facts: {
-	'Linkedin': `<a href="https://www.linkedin.com/in/simone-peruzzo-2b331353/"><i class="fa-brands fa-linkedin fact-icon"></i>Simone Peruzzo</a>`,
+    'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>',
+	  'Linkedin': `<a href="https://www.linkedin.com/in/simone-peruzzo-2b331353/"><i class="fa-brands fa-linkedin fact-icon"></i>Simone Peruzzo</a>`,
     'Facebook': `<a href="https://www.facebook.com/SimoneAndPeruzzo"><i class="fa-brands fa-facebook fact-icon"></i>Simone Peruzzo</a>`,
-    'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>'
+    
   },
   introduction:'My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills and trying to undestand their needs and interests in order to get the best from all of them. ',
   skills: [
@@ -22,8 +23,8 @@ module.exports = {
       location: 'Mira(VE), Italy',
       mode: 'Hybrid',  // or 'Remote', 'Hybrid'
       skills: [],
-      contents: `I started my adventure, as a main software develop of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in july 2017.
-      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, and becoming an appreciated Team Leader.`
+      contents: `I started my adventure, as a main software developer of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in July 2017.
+      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, becoming an appreciated Team Leader.`
     },
     {
       title: 'Ng.srl',
