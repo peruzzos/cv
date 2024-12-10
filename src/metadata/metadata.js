@@ -18,19 +18,21 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'CUSTOM.spa - Development Team Leader',
+      title: 'AGILE Development Team Leader',
       period: 'July 2017 - Currently',
-      location: 'Mira(VE), Italy',
-      mode: 'Hybrid',  // or 'Remote', 'Hybrid'
+      location: 'Limena(PD) - Mira(VE) - Mestre(VE), Italy',
+      mode: 'Hybrid',
+      company:'Maxima s.r.l. / Bizeta Retail Solutions s.r.l. / Custom S.p.A.',
       skills: [],
       contents: `I started my adventure, as a main software developer of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in July 2017.
       Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, becoming an appreciated Team Leader.`
     },
     {
-      title: 'Ng.srl',
-      location: 'Rovigo, Italy',
-      mode: 'Hybrid',  // or 'Remote', 'Hybrid'
+      title: 'Software Developer Specialist',
       period: 'June 2014 – June 2017',
+      location: 'Rovigo, Italy',
+      mode: 'Hybrid',
+      company:'Ng.srl',
       skills: ['desktop app design and development', 'web catalog using three,js'],
       contents: `
 Development of desktop applications using C# programming language, synchronization with the NopCommerce e-commerce platform and use of query notification to update the informations managed by
@@ -48,10 +50,11 @@ Implementation of mobile applications for:
 Use of Three.js library to realize three-dimensional objects for a web catalog.`
     },
     {
-      title: 'Information Management System (IMS) Research Group at the University of Padua - Scientific Collaborator',
+      title: 'Scientific Collaborator',
       location: 'Padua, Italy',
-      mode: 'In-person',  // or 'Remote', 'Hybrid'
+      mode: 'In-person',
       period: 'February 2011, April 2013',
+      company: 'Information Management System (IMS) Research Group at the University of Padua',
       skills: ['web application development'],
       contents: `Website development using the Liferay CE portal server, management of users and SEO activities using Google Analytics for the following projects:
 \n\n
@@ -79,10 +82,11 @@ development.
           `
     },
     {
-      title: 'Internship - Zucchetti S.P.A.',
+      title: 'Internship',
       period: 'May 2010, June 2010',
       location: 'Padua, Italy',
-      mode: 'In-person',  // or 'Remote', 'Hybrid'
+      mode: 'In-person',
+      company: 'Zucchetti S.P.A.',
       skills: ['research'],
       contents: `Activities VoIP application development, a third-part application interfaced with Skype using its API.`
     }
