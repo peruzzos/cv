@@ -83,86 +83,86 @@
                     </div>
                     {{/each}}
                 </div>
-                <div class="pb-print-0 mb-print-1" id="education">
-                    <h2 class="mb-4 text-blue">EDUCATION</h2>
-                    <div class="border-bottom border-2 border-print-0 border-blue pb-print-0 mb-print-1"
-                        style="margin-bottom: 1em;"></div>
-                    {{#each educations}}
-                    <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-                        <div>
-                            <h3 class="fs-4 fw-normal">{{ title }}</h3>
-                            <div><i class="fa-solid fa-university"
-                                    style="margin-right: 10px; display:inline-block"></i>{{{
-                                markdown institution }}}</div>
-                            <div><i class="fa-solid fa-calendar" style="margin-right: 10px;"></i> {{ period }}</div>
-                            <p>
-                                {{#each skills }}
-                                <span class="badge text-body border border-1">{{ this }}</span>
-                                {{/each}}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                {{/each}}
             </div>
-            <div class="pb-5 pb-print-0 mb-print-1">
-                <h2 class="mb-4 text-blue">CERTIFICATION</h2>
+            <div class="pb-print-0 mb-print-1">
+                <h2 class="mb-4 text-blue">EDUCATION</h2>
                 <div class="border-bottom border-2 border-print-0 border-blue pb-print-0 mb-print-1"
                     style="margin-bottom: 1em;"></div>
-                {{#each certifications}}
-                <div class="mb-4">
-                    <h3 class="fs-4 fw-normal">{{ title }}</h3>
-                    <div style="font-size: 0.9em;margin-top:10px">
-                        {{{markdown contents }}}
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-            <div class="border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-                <h3 class="text-blue screen mb-4">SKILLS</h3>
-                <div class="border-bottom border-2 border-print-0 border-blue pb-print-0 mb-print-1"
-                    style="margin-bottom: 1em;"></div>
-                <div class="row align-items-center">
-                    {{#each skills}}
-                    <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-                        <small>{{ this.[0] }}</small>
-                    </div>
-                    <div class="col-print-1 col-3 col-md-2 col-lg-1">
-                        <div class="skills">
-                            <div class="skills-bar" style="width: {{ this.[1] }}%"></div>
-                        </div>
-                    </div>
-                    {{/each}}
-                </div>
-            </div>
-            <div class="border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-                <h2 class="mb-4 text-blue">OTHER EXPERIENCES</h2>
-                <div class="border-bottom border-2 border-print-0 border-blue mb-5 pb-print-0 mb-print-1"></div>
-                {{#each otherexperiences}}
-                <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-                    <div>
+                {{#each educations}}
+                <div class="row d-block d-md-flex" id="education">
+                    <div style="margin-bottom: 1em;">
                         <h3 class="fs-4 fw-normal">{{ title }}</h3>
-                        <div style="font-size: 0.9em;margin-top:10px">{{{markdown contents }}}</div>
-                        <div><i class="fa-solid fa-calendar"></i> {{ period }} <i class="fa-solid fa-location-dot"></i>
-                            {{ location }} <i class="fa-solid fa-laptop-house"></i> {{ mode }}</div>
+                        <div><i class="fa-solid fa-university" style="margin-right: 10px; display:inline-block"></i>{{{
+                            markdown institution }}}</div>
+                        <div><i class="fa-solid fa-calendar" style="margin-right: 10px;"></i> {{ period }}</div>
+                        <p>
+                            {{#each skills }}
+                            <span class="badge text-body border border-1">{{ this }}</span>
+                            {{/each}}
+                        </p>
                     </div>
                 </div>
                 {{/each}}
             </div>
-
-            <h2 class="mb-4 text-blue">LANGUAGE SKILLS</h2>
-            <div class="border-bottom border-2 border-print-0 border-blue mb-5 pb-print-0 mb-print-1"></div>
-            {{#each languages}}
+        </div>
+        <div class="pb-5 pb-print-0 mb-print-1">
+            <h2 class="mb-4 text-blue">CERTIFICATION</h2>
+            <div class="border-bottom border-2 border-print-0 border-blue pb-print-0 mb-print-1"
+                style="margin-bottom: 1em;"></div>
+            {{#each certifications}}
             <div class="mb-4">
                 <h3 class="fs-4 fw-normal">{{ title }}</h3>
-                <div>
-                    {{#each levels }}
-                    <span class="badge text-body border border-1">{{ this }}</span>
-                    {{/each}}
+                <div style="font-size: 0.9em;margin-top:10px">
+                    {{{markdown contents }}}
                 </div>
             </div>
             {{/each}}
         </div>
+        <div class="border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+            <h3 class="text-blue screen mb-4">SKILLS</h3>
+            <div class="border-bottom border-2 border-print-0 border-blue pb-print-0 mb-print-1"
+                style="margin-bottom: 1em;"></div>
+            <div class="row align-items-center">
+                {{#each skills}}
+                <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+                    <small>{{ this.[0] }}</small>
+                </div>
+                <div class="col-print-1 col-3 col-md-2 col-lg-1">
+                    <div class="skills">
+                        <div class="skills-bar" style="width: {{ this.[1] }}%"></div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+            <h2 class="mb-4 text-blue">OTHER EXPERIENCES</h2>
+            <div class="border-bottom border-2 border-print-0 border-blue mb-5 pb-print-0 mb-print-1"></div>
+            {{#each otherexperiences}}
+            <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
+                <div>
+                    <h3 class="fs-4 fw-normal">{{ title }}</h3>
+                    <div style="font-size: 0.9em;margin-top:10px">{{{markdown contents }}}</div>
+                    <div><i class="fa-solid fa-calendar"></i> {{ period }} <i class="fa-solid fa-location-dot"></i>
+                        {{ location }} <i class="fa-solid fa-laptop-house"></i> {{ mode }}</div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+        <h2 class="mb-4 text-blue">LANGUAGE SKILLS</h2>
+        <div class="border-bottom border-2 border-print-0 border-blue mb-5 pb-print-0 mb-print-1"></div>
+        {{#each languages}}
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">{{ title }}</h3>
+            <div>
+                {{#each levels }}
+                <span class="badge text-body border border-1">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
     </div>
 </body>
 <footer>
