@@ -1,13 +1,13 @@
 module.exports = {
   name: 'SIMONE PERUZZO',
-  title: 'Enthusiast Team Leader. Inspired by example.',
+  title: 'Enthusiast Solution Designer and Team Leader. Inspired by example.',
   facts: {
     'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>',
 	  'Linkedin': `<a href="https://www.linkedin.com/in/simone-peruzzo-2b331353/"><i class="fa-brands fa-linkedin fact-icon"></i>Simone Peruzzo</a>`,
     'Facebook': `<a href="https://www.facebook.com/SimoneAndPeruzzo"><i class="fa-brands fa-facebook fact-icon"></i>Simone Peruzzo</a>`,
     
   },
-  introduction:'My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills and trying to undestand their needs and interests in order to get the best from all of them. ',
+  introduction:'I focus on defining and communicating a clear vision that guides change and delivers business value. I collaborate with stakeholders and team members to align objectives, influence positive outcomes, and support continuous skill development. By understanding individual strengths, needs, and interests, I help create an environment where people can contribute effectively, grow professionally, and achieve the best possible results together. ',
   skills: [
     ['Team Leadership', 70],
     ['Code Architecture', 80],
@@ -18,8 +18,17 @@ module.exports = {
   ],
   positions: [
     {
+      title: 'Solution Designer',
+      period: 'September 2025 - Currently',
+      location: 'Grisignano di Zocco(VI), Italy',
+      mode: 'Hybrid',
+      company:'Sanmarco Informatica S.p.A.',
+      skills: [],
+      contents: `This represents a major career transition for me. Rather than focusing primarily on implementation, I am now dedicated to designing features that solve customer problems and generate business value. My success is measured by the impact these solutions have on customers and the business.`
+    },
+    {
       title: 'AGILE Development Team Leader',
-      period: 'July 2017 - Currently',
+      period: 'July 2017 - September 2025',
       location: 'Limena(PD) - Mira(VE) - Mestre(VE), Italy',
       mode: 'Hybrid',
       company:'Maxima s.r.l. / Bizeta Retail Solutions s.r.l. / Custom S.p.A.',
@@ -134,7 +143,11 @@ development.
     ,
     {
       title: 'Azure Developer Associate AZ-204',
-      contents: `[Microsoft Certified](https://learn.microsoft.com/), Certification number: GBD558-C13482.`
+      contents: `[Microsoft Certified](https://learn.microsoft.com/api/credentials/share/en-gb/peruzzos-6852/7802B6AFC1548642?sharingId=7F2F79F0F49430FF), Certification number: GBD558-C13482.`
+    },
+    {
+      title: 'DevOps Engineer Expert AZ-400',
+      contents: `[Microsoft Certified](https://learn.microsoft.com/api/credentials/share/en-gb/peruzzos-6852/7802B6AFC1548642?sharingId=7F2F79F0F49430FF), Certification number: BC486R-065049.`
     }
   ],
   otherexperiences:[
