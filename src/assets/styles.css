@@ -64,6 +64,49 @@ h1, h2, h3, h4 {
 }
 
 @media not print {
+
+
+    #profile-title {
+        width: 73%;
+    }
+
+    #profile-picture {
+        width: 23%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    #profile-picture > img{
+        max-width: 40%;
+    }
+
+    #profile-contacts{
+        margin-left:0;
+        width: 35%;
+        padding-top: 0;
+    }
+
+    #profile-contacts > l1{
+        padding-right:20%;
+    }
+
+    #profile-contacts  a {
+        color: black;
+        font-size: 0.8em;
+    }
+
+    #profile-name{
+        font-size: 2.4em;
+    }
+
+    #education p{
+        display: inline;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+
     .page {
         padding: 2rem;
     }
@@ -83,6 +126,48 @@ h1, h2, h3, h4 {
 
     strong {
         font-weight: 500;
+    }
+    
+    .fs-3{
+        min-width: 1200px;
+        font-size: calc(1.1rem + .4vw) !important;
+    }
+
+    .offset-lg-1{
+        margin-left:7.333333%;
+    }
+
+    .col-lg-4{
+        width:35.33333333%;
+    }
+
+    .img-fluid{
+        max-width:90%;
+    }
+
+    .rounded-circle{
+        border-radius: 5% !important;
+    }
+
+    .offset-lg-1 {
+        margin-left:13%;
+    }
+
+    .text-blue{
+        color:#6ba1ff;
+    }
+
+    .border-blue{
+        --bs-border-color: #6ba1ff;
+    }
+
+    #profile-contacts ul{
+        display: flex;
+        flex-direction:row;
+        /* flex-direction: column
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /
     }
 }
 

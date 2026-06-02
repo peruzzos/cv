@@ -1,12 +1,13 @@
 module.exports = {
-  name: 'Simone Peruzzo',
-  title: 'Team Leader',
+  name: 'SIMONE PERUZZO',
+  title: 'Enthusiast Solution Designer and Team Leader. Inspired by example.',
   facts: {
-	'Linkedin': `<a href="https://www.linkedin.com/in/simone-peruzzo-2b331353/"><i class="fa-brands fa-linkedin fact-icon"></i>Simone Peruzzo</a>`,
+    'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>',
+	  'Linkedin': `<a href="https://www.linkedin.com/in/simone-peruzzo-2b331353/"><i class="fa-brands fa-linkedin fact-icon"></i>Simone Peruzzo</a>`,
     'Facebook': `<a href="https://www.facebook.com/SimoneAndPeruzzo"><i class="fa-brands fa-facebook fact-icon"></i>Simone Peruzzo</a>`,
-    'Email': '<a href="mailto:peruzzo.simone.unipd@gmail.com"><i class="fa fa-envelope fact-icon"></i>peruzzo.simone.unipd@gmail.com</a>'
+    
   },
-  introduction:'My target is focusing on a vision to guide change, driving people to get the achivements. Influence team members in order to improve their skills and trying to undestand their needs and interests in order to get the best from all of them. ',
+  introduction:'I focus on defining and communicating a clear vision that guides change and delivers business value. I collaborate with stakeholders and team members to align objectives, influence positive outcomes, and support continuous skill development. By understanding individual strengths, needs, and interests, I help create an environment where people can contribute effectively, grow professionally, and achieve the best possible results together. ',
   skills: [
     ['Team Leadership', 70],
     ['Code Architecture', 80],
@@ -17,19 +18,30 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'CUSTOM.spa - Development Team Leader',
-      period: 'July 2017 - Currently',
-      location: 'Mira(VE), Italy',
-      mode: 'Hybrid',  // or 'Remote', 'Hybrid'
+      title: 'Solution Designer',
+      period: 'September 2025 - Currently',
+      location: 'Grisignano di Zocco(VI), Italy',
+      mode: 'Hybrid',
+      company:'Sanmarco Informatica S.p.A.',
       skills: [],
-      contents: `I started my adventure, as a main software develop of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in july 2017.
-      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, and becoming an appreciated Team Leader.`
+      contents: `This represents a major career transition for me. Rather than focusing primarily on implementation, I am now dedicated to designing features that solve customer problems and generate business value. My success is measured by the impact these solutions have on customers and the business.`
     },
     {
-      title: 'Ng.srl',
-      location: 'Rovigo, Italy',
-      mode: 'Hybrid',  // or 'Remote', 'Hybrid'
+      title: 'AGILE Development Team Leader',
+      period: 'July 2017 - September 2025',
+      location: 'Limena(PD) - Mira(VE) - Mestre(VE), Italy',
+      mode: 'Hybrid',
+      company:'Maxima s.r.l. / Bizeta Retail Solutions s.r.l. / Custom S.p.A.',
+      skills: [],
+      contents: `I started my adventure, as a main software developer of the [IDStore](https://www.custom.biz/en_GB/prodotto/software/id-store) product in July 2017.
+      Due to the increasing importance of [OneStore](https://www.custom.biz/en_GB/product/software/onestore) product, I moved into the development team.  Over the years, I was able to grow within the team, becoming an appreciated Team Leader.`
+    },
+    {
+      title: 'Software Developer Specialist',
       period: 'June 2014 – June 2017',
+      location: 'Rovigo, Italy',
+      mode: 'Hybrid',
+      company:'Ng.srl',
       skills: ['desktop app design and development', 'web catalog using three,js'],
       contents: `
 Development of desktop applications using C# programming language, synchronization with the NopCommerce e-commerce platform and use of query notification to update the informations managed by
@@ -47,10 +59,11 @@ Implementation of mobile applications for:
 Use of Three.js library to realize three-dimensional objects for a web catalog.`
     },
     {
-      title: 'Information Management System (IMS) Research Group at the University of Padua - Scientific Collaborator',
+      title: 'Scientific Collaborator',
       location: 'Padua, Italy',
-      mode: 'In-person',  // or 'Remote', 'Hybrid'
+      mode: 'In-person',
       period: 'February 2011, April 2013',
+      company: 'Information Management System (IMS) Research Group at the University of Padua',
       skills: ['web application development'],
       contents: `Website development using the Liferay CE portal server, management of users and SEO activities using Google Analytics for the following projects:
 \n\n
@@ -78,10 +91,11 @@ development.
           `
     },
     {
-      title: 'Internship - Zucchetti S.P.A.',
+      title: 'Internship',
       period: 'May 2010, June 2010',
       location: 'Padua, Italy',
-      mode: 'In-person',  // or 'Remote', 'Hybrid'
+      mode: 'In-person',
+      company: 'Zucchetti S.P.A.',
       skills: ['research'],
       contents: `Activities VoIP application development, a third-part application interfaced with Skype using its API.`
     }
@@ -129,7 +143,11 @@ development.
     ,
     {
       title: 'Azure Developer Associate AZ-204',
-      contents: `[Microsoft Certified](https://learn.microsoft.com/), Certification number: GBD558-C13482.`
+      contents: `[Microsoft Certified](https://learn.microsoft.com/api/credentials/share/en-gb/peruzzos-6852/7802B6AFC1548642?sharingId=7F2F79F0F49430FF), Certification number: GBD558-C13482.`
+    },
+    {
+      title: 'DevOps Engineer Expert AZ-400',
+      contents: `[Microsoft Certified](https://learn.microsoft.com/api/credentials/share/en-gb/peruzzos-6852/7802B6AFC1548642?sharingId=7F2F79F0F49430FF), Certification number: BC486R-065049.`
     }
   ],
   otherexperiences:[
